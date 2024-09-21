@@ -1,0 +1,135 @@
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: black;
+}
+
+
+main{
+display: flex;
+justify-content: space-between;
+}
+
+
+
+.aside-1{
+  position:  fixed;
+  background: black;
+  color: white;
+  top: 0;
+  .navIcon{
+    margin-left: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 15pt;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#instaInitial
+{
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-size: 15pt;
+  margin: 25px 0 100px 20px;
+  font-style: italic;
+  font-weight: 5px;
+}
+
+
+.post-container {
+  color: white;
+  border: 1px solid black;
+  width: 400px;
+  height: 500px;
+  margin: 20px;
+  padding: 20px;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.post-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.post-header>div {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.post-image {
+  border: 1px solid black;
+  flex: 1;
+}
+
+.post-image img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.post-icons {
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  .btn-like{
+    cursor: pointer;
+  }
+  .fa {cursor: pointer;}
+
+}
+
+
+.div-likes{color: white;}
+
+
+.post-icons>div {
+  display: flex;
+  gap: 10px;
+}
+
+.post-likes {
+  font-size: 14px;
+}
+
+.liked {
+  color: red
+}
+
+
+
