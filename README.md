@@ -11,10 +11,11 @@ GalvaGram é uma aplicação de compartilhamento de fotos que permite aos usuár
 
 ## Tecnologias Utilizadas
 
-- **Frontend**: Typescript , HTML, CSS, JavaScript
-- **Backend**: Node.js, Express
-- **Banco de Dados**: MongoDB
-- **Autenticação**: JWT (JSON Web Tokens)
+- Typescript
+- UUID
+- FakerJS
+- HTML
+- CSS
 
 ## Instalação
 1. Clone o repositório:
@@ -27,9 +28,6 @@ cd GalvaGram
 Instale as dependências:
 npm install
 
-Configure as variáveis de ambiente no arquivo .env:
-MONGODB_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
 
 Inicie o servidor:
 npm start
